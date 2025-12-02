@@ -8,8 +8,8 @@
 
 KernelSUExt 是为 KernelSU 管理器编写的 LSPosed/Xposed 模块，用来备份：
 
-- **超级用户配置**：导出/导入 KernelSU 允许列表及 Profile 信息（JSON）。
-- **模块文件**：按模块单独打包 ZIP 备份，可选择需要备份的模块；支持从 ZIP 导入。
+- **超级用户配置**：导出/导入 KernelSU Root列表。
+- **模块文件**：按模块单独打包 ZIP 备份，可选择需要备份的模块。
 
 浮动按钮常驻于 KernelSU 管理器界面左上角，点击即可调出功能弹窗。
 
@@ -18,7 +18,6 @@ KernelSUExt 是为 KernelSU 管理器编写的 LSPosed/Xposed 模块，用来备
 - 导出超级用户列表 → `Download/kernelsu_backup/` 下生成 `superusers-YYYY-MM-DD HH-mm-ss.json`
 - 从文件导入超级用户列表（选择 JSON）
 - 备份模块：多选模块，逐个生成 `<moduleId>_YYYY-MM-DD HH-mm-ss.zip`
-- ~~恢复模块~~（功能已移除）
 - 任务进度：备份/恢复时显示 Loading，完成后自动关闭并提示
 - 备份目录展示：功能弹窗中会显示当前备份目录路径
 
