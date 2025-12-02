@@ -1,1 +1,3 @@
 KernelSUExt 是为 KernelSU 管理器编写的 LSPosed/Xposed 模块
+- 导出/导入 KernelSU Root列表。
+- 按模块单独打包 ZIP 备份，可选择需要备份的模块。
